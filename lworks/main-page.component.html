@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default navbar-inverse" class="container-fluid">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">At The Movies</a>
+        </div>
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                
+                <a ng-link="['/Mainpage','Register']">Register</a>
+            </li>
+            <li>
+                <a ng-link="['./Login']">Login</a>
+            </li>
+            <li>
+                <a ng-click="model.gotoList()">Service</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div>
+  
+<ng-outlet></ng-outlet>
+
+
+    
+    
+  <button ng-click="model.goTo()" class="btn btn-default">
+                    Footer
+  </button>
+</div>
+
+
+                <!--<button ng-click="model.goTo()" class="btn btn-default">
+                    Click me
+                </button>               -->
