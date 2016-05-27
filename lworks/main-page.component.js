@@ -30,7 +30,8 @@
             { path: "/register", component: "register", name: "Register" },
             { path: "/", component: "service", name: "Service" },
             { path: "/login/", component:"login", name: "Login"},
-            { path: "/footer", component:"footer", name: "Footer"}
+            { path: "/footer", component:"footer", name: "Footer"},
+            { path: "/search", component:"search", name: "Search"}
            
         ],
         bindings: {
@@ -40,14 +41,15 @@
     module.component("register", {
         template: "This is the register"
     });
-    module.component("service", {
-        template: "This is the service"
-    });
+   
     module.component("login", {
         template: "This is the login"
     });
     module.component("footer", {
         template: "This is the footer"
+    });
+    module.component("search", {
+        template: "This is the Search"
     });
 
 } ());

@@ -17,15 +17,7 @@
     module.component("lworksApp", {
        templateUrl: "/lworks/home-page.component.html",
        $routeConfig: [
-        //    { path: "/**", redirectTo: ['/Mainpage','Service'] },
            { path: "/...", component:"mainpageComp", name: "Mainpage" }
-          // { path: "/register", component:"register", name: "Register" }
-           
-
-        //    { path: "/register", component:"registerComp", name: "Register" },
-        //    { path: "/login/...", component:"loginComp", name: "Login" },
-        //    { path: "/services", component:"serviceComp", name: "Service" },
-           //{ path: "/**", redirectTo: ["Mainpage"] }
        ],
         controller:headerController,
         controllerAs:'model',
